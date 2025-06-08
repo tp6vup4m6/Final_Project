@@ -368,6 +368,14 @@ h2 {
         width: 100%;
     }
 
+    .block {
+        max-width: 1920px;
+    }
+
+    .block img {
+        width: 100%;
+    }
+
     .text {
         width: 80%;
         margin: auto;
