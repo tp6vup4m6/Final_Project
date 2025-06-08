@@ -157,7 +157,7 @@ h2 {
 
 .container {
     margin: 0 auto;
-    max-width: 1920px;
+    max-width: 1296px;
     padding-top: 40px;
     padding-bottom: 40px;
     gap: 24px;
@@ -397,6 +397,7 @@ h2 {
 
     .search {
         margin: auto;
+        width: 90%;
     }
 
     .row {
@@ -405,11 +406,16 @@ h2 {
     }
 
     .block {
-        width: 100%;
+        max-width: 992px;
+        margin-left: 40px;
     }
 
     .block img {
-        width: 100%;
+        width: 90%;
+    }
+
+    .card-body {
+        width: 90%;
     }
 
     .footer {
