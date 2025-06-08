@@ -190,7 +190,7 @@ h2 {
 .block {
     margin-top: 40px;
     margin-bottom: 40px;
-    width: 416px;
+    max-width: 416px;
 }
 
 .card-body {
@@ -365,14 +365,6 @@ h2 {
 
     .pic img,
     .pic2 img {
-        width: 100%;
-    }
-
-    .block {
-        max-width: 1920px;
-    }
-
-    .block img {
         width: 100%;
     }
 
